@@ -25,10 +25,9 @@ class CommentBox extends Component{
   render(){
     return(
       <div className="comment-box">
-        <h1>I am a CommentBox</h1>
-        <h2>Enter a comment:</h2>
-        <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
-        <CommentList data={this.state.data}/>
+      <h2>Enter a comment:</h2>
+      <CommentForm onCommentSubmit={this.handleCommentSubmit}/>
+      <CommentList data={this.state.data}/>
       </div>
     )
   }
